@@ -1,0 +1,27 @@
+# data
+data/raw/
+data/staged/
+data/warehouse/marketing/
+data/sample/tmp/
+*.parquet
+*.csv.zip
+extract_log.txt
+
+# secrets
+credentials/
+*.env
+.env
+*.key
+*.pem
+
+# BI files
+*.pbix
+*.pbix.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env/
+.ipynb_checkpoints/
